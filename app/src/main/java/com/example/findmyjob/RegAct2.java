@@ -13,11 +13,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
 
 public class RegAct2 extends AppCompatActivity {
 
+
     EditText mail,pwd;
     FirebaseAuth auth;
+    DatabaseReference reference;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +38,7 @@ public class RegAct2 extends AppCompatActivity {
 
     public void Personaldetails(View view)
     {
+
 
 
         startActivity(new Intent(this,Personaldetails.class));

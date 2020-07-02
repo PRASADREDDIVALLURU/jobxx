@@ -60,7 +60,6 @@ public class Personaldetails extends AppCompatActivity {
                 {
                     Toast.makeText(Personaldetails.this, "Date saved", Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(Personaldetails.this,RegAct2.class));
-                    finish();
                 }
                 else
                 {
